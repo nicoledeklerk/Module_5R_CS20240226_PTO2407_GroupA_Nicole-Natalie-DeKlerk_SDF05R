@@ -78,9 +78,34 @@ p {
     }   
     
     @keyframes extend {
-    0% {width: 100px; height: 100px; background: crimson;}
-    25% {width: 125px; height: 125px; background: purple;}
-    50% {width: 150px; height: 150px; background: orangered;}
-    75% {width: 175px; height: 175px; background: blue;}
-    100% {width: 200px; height: 200px; background: green;}
+        0% {width: 100px; height: 100px; background: crimson;}
+        25% {width: 125px; height: 125px; background: purple;}
+        50% {width: 150px; height: 150px; background: orangered;}
+        75% {width: 175px; height: 175px; background: blue;}
+        100% {width: 200px; height: 200px; background: green;}
     }
+
+.btn-3 {
+    background-color: #008CBA;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 75%;
+    box-shadow: 0 4px 15px 0 #006699;
+    width: 350px;
+    animation: gradient 3s infinite;
+    }
+      
+    @keyframes gradient {
+        0% {background-color: #6b115c;}
+        50% {background-color: #531c69b0;}
+        100% {background-color: #370f49;}
+      }
+
+
