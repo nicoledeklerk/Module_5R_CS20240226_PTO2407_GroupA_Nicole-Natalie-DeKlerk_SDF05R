@@ -67,3 +67,20 @@ p {
     width: 250px;
     height: 50px;
 }
+
+.btn-2 {
+    width: 100px;
+    height: 100px;
+    background: crimson;
+    border: 3px solid black;
+    animation: extend 5s ease-in infinite;
+    font-size: 1em;
+    }   
+    
+    @keyframes extend {
+    0% {width: 100px; height: 100px; background: crimson;}
+    25% {width: 125px; height: 125px; background: purple;}
+    50% {width: 150px; height: 150px; background: orangered;}
+    75% {width: 175px; height: 175px; background: blue;}
+    100% {width: 200px; height: 200px; background: green;}
+    }
