@@ -52,3 +52,18 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+
+.btn-1 {
+    border-radius: 50%;
+    background-image: linear-gradient(red, yellow, green);
+    font-weight: 600;
+    border: none;
+    width: 150px;
+    height: 150px;
+    transition: width 2s, height 4s;
+}
+
+.btn-1:hover {
+    width: 250px;
+    height: 50px;
+}
