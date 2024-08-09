@@ -73,7 +73,7 @@ p {
     height: 100px;
     background: crimson;
     border: 3px solid black;
-    animation: extend 5s ease-in infinite;
+    animation: extend 5s ease infinite;
     font-size: 1em;
     }   
     
